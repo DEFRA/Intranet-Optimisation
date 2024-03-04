@@ -1,0 +1,30 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240227094318
+Username: BUCKIPC\WORKJB
+RunAs User: BUCKIPC\WORKJB
+Configuration Name: 
+Machine: BUCKIPC (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 10484
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>TerminatingError(): "Entries could not be found in the configuration module that matches the requirements for this script to run. The Defra Intranet and all associated ALB intranets are required."
+Entries could not be found in the configuration module that matches the requirements for this script to run. The Defra Intranet and all associated ALB intranets are required.
+At C:\Users\WORKJB\_Projects\Methods\DefraIntranet\Deployments\Phase 02\01 - All Intranet Sites - Create Site Columns .ps1:52 char:5
++     throw "Entries could not be found in the configuration module tha ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Entries could n...s are required.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Entries could not be found in the configuration module that matches the requirements for this script to run. The Defra Intranet and all associated ALB intranets are required.
+
+**********************
+Windows PowerShell transcript end
+End time: 20240227103528
+**********************
